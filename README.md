@@ -1,11 +1,11 @@
 # EDMC-Steamshot
-A plugin for EDMC which detects an uncompressed screenshot from Steam, renames it with relevent information, and retains EDFX / Reshade effects.
+A plugin for EDMC which detects an uncompressed screenshot from Steam, renames it with relevant information, and retains EDFX / Reshade effects.
 
 The plugin takes a screenshot file created by Steam and generates a new name based on current star system and stellar body. 
-The converted file can be saved to a different directory from the orginal file. The original file can optionally be deleted. 
+The converted file can be saved to a different directory from the original file. The original file can optionally be deleted. 
 
 # Prerequisites
-1. Steam-Overlay must be enabled for sceenshots to be taken.
+1. Steam-Overlay must be enabled for screenshots to be taken.
 2. If having trouble with Steam-Overlay not working with EDFX / Reshade activated. Follow the steps below:
 	* In EDFX, head to the FX Compatibility mode tab
 	* Under Compatibility mode select `Mode 2 (dxgi.dll)`. Steam-Overlay should now be enabled with EDFX / Reshade effects intact. 
