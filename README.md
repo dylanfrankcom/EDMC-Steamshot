@@ -5,11 +5,11 @@ The plugin takes a screenshot file created by Steam and generates a new name bas
 The converted file can be saved to a different directory from the orginal file. The original file can optionally be deleted. 
 
 # Prerequisites
-1: The Steam-Overlay must be enabled for sceenshots to be taken.
-2: If having trouble with Steam-Overlay not working with EDFX / Reshade activated. Follow the steps below:
+1. Steam-Overlay must be enabled for sceenshots to be taken.
+2. If having trouble with Steam-Overlay not working with EDFX / Reshade activated. Follow the steps below:
 	* In EDFX, head to the FX Compatibility mode tab
 	* Under Compatibility mode select `Mode 2 (dxgi.dll)`. Steam-Overlay should now be enabled with EDFX / Reshade effects intact. 
-3: In Steam, go to `Settings -> In-Game`
+3. In Steam, go to `Settings -> In-Game`
 	* ensure `Save an uncompressed copy` is enabled 
 	* Choose the desired folder in which you would like the original screenshot to be saved by pressing the `Screenshot folder` button below. This folders path will be the `Screenshot Directory` in EDMC.
 
@@ -32,4 +32,5 @@ Go to file/settings and put in:
 * Choose whether to delete the original file
 
 
+### Credit
 EDMC-Steamshot is a fork of [NoFoolLikeOne's](https://github.com/NoFoolLikeOne) [EDMC-Screenshot](https://github.com/NoFoolLikeOne/EDMC-Screenshot) plugin, without which this plugin would not be possible. This plugin differs from its parent as it renames and relocates an uncompressed png file created by Steam while retaining EDFX / Reshade effects. All credit to the original creator. 
