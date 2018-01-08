@@ -33,4 +33,4 @@ Go to file/settings and put in:
 
 
 ### Credit
-EDMC-Steamshot is a fork of [NoFoolLikeOne's](https://github.com/NoFoolLikeOne) [EDMC-Screenshot](https://github.com/NoFoolLikeOne/EDMC-Screenshot) plugin, without which this plugin would not be possible. This plugin differs from its parent as it renames and relocates an uncompressed png file created by Steam while retaining EDFX / Reshade effects. All credit to the original creator. 
+EDMC-Steamshot is a fork of [NoFoolLikeOne's](https://github.com/NoFoolLikeOne) [EDMC-Screenshot](https://github.com/NoFoolLikeOne/EDMC-Screenshot) plugin, without which this plugin would not be possible. This plugin differs from its parent as it renames and relocates an uncompressed png file created by Steam while retaining EDFX / Reshade effects. 
