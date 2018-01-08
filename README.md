@@ -10,7 +10,7 @@ The converted file can be saved to a different directory from the original file.
 	* In EDFX, head to the FX Compatibility mode tab
 	* Under Compatibility mode select `Mode 2 (dxgi.dll)`. Steam-Overlay should now be enabled with EDFX / Reshade effects intact. 
 3. In Steam, go to `Settings -> In-Game`
-	* ensure `Save an uncompressed copy` is enabled 
+	* Ensure `Save an uncompressed copy` is enabled 
 	* Choose the desired folder in which you would like the original screenshot to be saved by pressing the `Screenshot folder` button below. This folders path will be the `Screenshot Directory` in EDMC.
 
 # Installation
