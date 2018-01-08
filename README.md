@@ -1,5 +1,5 @@
 # EDMC-Steamshot
-A plugin for EDMC which detects an uncompressed screenshot from Steam, renames it with relevent information, all while retaining EDFX / Reshade effects.
+A plugin for EDMC which detects an uncompressed screenshot from Steam, renames it with relevent information, and retains EDFX / Reshade effects.
 
 The plugin takes a screenshot file created by Steam and generates a new name based on current star system and stellar body. 
 The converted file can be saved to a different directory from the orginal file. The original file can optionally be deleted. 
