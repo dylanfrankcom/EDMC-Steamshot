@@ -1,7 +1,7 @@
 # EDMC-Steamshot
 A plugin for EDMC which detects an uncompressed screenshot from Steam, renames it with relevant information, and retains EDFX / Reshade effects.
 
-The plugin takes a screenshot file created by Steam and generates a new name based on current star system and stellar body. 
+The plugin takes a screenshot file created by Steam and generates a new name based on current star system and stellar body while retaining EDFX / Reshade information. 
 The converted file can be saved to a different directory from the original file. The original file can optionally be deleted. 
 
 # Prerequisites
@@ -17,8 +17,6 @@ The converted file can be saved to a different directory from the original file.
 
 Download the [latest release](https://github.com/dylanfrankcom/EDMC-Steamshot/releases/latest), open the archive (zip) and extract the folder to your EDMC plugin folder.
 
-Rename the folder to EDMC-Steamshot
-
 * Windows: `%LOCALAPPDATA%\EDMarketConnector\plugins` (usually `C:\Users\username\AppData\Local\EDMarketConnector\plugins`).
 * Mac: `~/Library/Application Support/EDMarketConnector/plugins` (in Finder hold ⌥ and choose Go &rarr; Library to open your `~/Library` folder).
 * Linux: `$XDG_DATA_HOME/EDMarketConnector/plugins`, or `~/.local/share/EDMarketConnector/plugins` if `$XDG_DATA_HOME` is unset.
@@ -26,7 +24,7 @@ Rename the folder to EDMC-Steamshot
 Relaunch EDMC to initiate the plugin.
 
 ## Configuration
-Go to file/settings and put in: 
+Go to `File/Settings -> Steamshot` and put in: 
 * the directory where Steam saves uncompressed screenshots
 * the directory where you want the converted screenshots to go
 * Choose whether to delete the original file
