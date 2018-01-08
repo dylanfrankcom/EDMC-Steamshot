@@ -15,7 +15,7 @@ The converted file can be saved to a different directory from the original file.
 
 # Installation
 
-Download the [latest release], open the archive (zip) and extract the folder to your EDMC plugin folder.
+Download the [latest release](https://github.com/dylanfrankcom/EDMC-Steamshot/releases/latest), open the archive (zip) and extract the folder to your EDMC plugin folder.
 
 Rename the folder to EDMC-Steamshot
 
